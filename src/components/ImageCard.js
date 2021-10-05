@@ -28,6 +28,10 @@ const imageCard = ({ image }) => {
             <strong>Likes:</strong>
             {image.likes}
           </li>
+          <li>
+            <strong>URL:</strong>
+            {image.userImageURL}
+          </li>
         </ul>
       </div>
       <div className="px-6 py-4">
